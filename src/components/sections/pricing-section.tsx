@@ -22,11 +22,11 @@ export function PricingSection() {
       <div className="w-full max-w-lg mx-auto px-4 sm:px-6">
         <div className="bg-white dark:bg-accent rounded-2xl shadow-[0_8px_40px_-12px_rgba(0,0,0,0.12)] border border-border/50 overflow-hidden">
           {/* Imagem da Bíblia */}
-          <div className="w-full overflow-hidden h-[280px] sm:h-[340px] md:h-[380px]">
+          <div className="w-full">
             <img
-              src="/VENDA.webp"
+              src="/VENDAA.webp"
               alt="Bíblia Devocional McCheyne"
-              className="w-full h-full object-cover object-top"
+              className="w-full h-auto object-cover"
             />
           </div>
 
