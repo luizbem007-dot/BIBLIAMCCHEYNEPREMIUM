@@ -34,9 +34,12 @@ export function PricingSection() {
 
           {/* Badge + Título + Preço */}
           <div className="flex flex-col items-center gap-4 pt-8 pb-6 px-4 sm:px-6">
-            <span className="inline-flex items-center gap-1.5 bg-secondary/10 text-sm font-semibold px-4 py-1.5 rounded-full">
-              🏆 <AnimatedGradientText colorFrom="#680d3a" colorTo="#b8860b" speed={2}>O Plano Completo de 1 Ano</AnimatedGradientText>
-            </span>
+            <div className="group inline-flex items-center gap-2 rounded-full border border-black/5 bg-white px-5 py-2 text-sm shadow-[inset_0_-8px_10px_#8fdfff1f] backdrop-blur-sm transition-all hover:shadow-[inset_0_-5px_10px_#8fdfff3f] dark:border-white/5 dark:bg-black">
+              <span>🏆</span>
+              <span className="mx-1 h-4 w-px bg-gray-300 dark:bg-gray-600" />
+              <AnimatedGradientText colorFrom="#680d3a" colorTo="#b8860b" speed={2} className="font-semibold">O Plano Completo de 1 Ano</AnimatedGradientText>
+              <svg width="12" height="12" viewBox="0 0 12 12" fill="none" className="ml-1 text-gray-400"><path d="M4.5 2.25L8.25 6L4.5 9.75" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            </div>
             <h3 className="text-xl md:text-2xl font-semibold tracking-tight text-primary text-center">
               Bíblia Devocional McCheyne
             </h3>
