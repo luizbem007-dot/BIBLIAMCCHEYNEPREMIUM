@@ -43,10 +43,7 @@ export function PricingSection() {
             <h3 className="text-xl md:text-2xl font-semibold tracking-tight text-primary text-center">
               Bíblia Devocional McCheyne
             </h3>
-            <div className="flex flex-col items-center gap-1">
-              <span className="text-lg text-muted-foreground line-through">
-                De R$ 87,00
-              </span>
+            <div className="flex flex-col items-center gap-2">
               <div className="flex items-baseline gap-1">
                 <span className="text-sm text-muted-foreground mr-1">Por apenas</span>
                 <span className="text-5xl md:text-6xl font-bold tracking-tighter text-primary">
@@ -54,10 +51,13 @@ export function PricingSection() {
                 </span>
                 <span className="text-2xl font-semibold text-primary">,00</span>
               </div>
+              <p className="text-sm text-muted-foreground">
+                pagamento único | sem taxas escondidas
+              </p>
+              <p className="text-xs text-muted-foreground/70 mt-1">
+                Menos de R$ 0,22 por dia de leitura guiada durante 1 ano inteiro
+              </p>
             </div>
-            <p className="text-sm text-muted-foreground">
-              pagamento único | sem taxas escondidas
-            </p>
           </div>
 
           {/* CTA */}
