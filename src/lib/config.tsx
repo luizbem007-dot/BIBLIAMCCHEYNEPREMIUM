@@ -2,6 +2,7 @@ import { FlickeringGrid } from "@/components/ui/flickering-grid";
 import { Globe } from "@/components/ui/globe";
 import { cn } from "@/lib/utils";
 import { motion } from "motion/react";
+import Image from "next/image";
 
 export const Highlight = ({
   children,
@@ -324,11 +325,15 @@ export const siteConfig = {
       {
         id: 1,
         content: (
-          <img
-            src="/freepik__prompt-a-candid-photorealistic-shot-of-a-mans-hand__61742.jpeg"
-            alt="A Bíblia de Capa a Capa"
-            className="w-full h-full object-cover"
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/freepik__prompt-a-candid-photorealistic-shot-of-a-mans-hand__61742.jpeg"
+              alt="A Bíblia de Capa a Capa"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
         ),
         title: "A Bíblia de Capa a Capa",
         description:
@@ -337,11 +342,15 @@ export const siteConfig = {
       {
         id: 2,
         content: (
-          <img
-            src="/freepik__prompt-a-highangle-photograph-looking-down-at-the-__61754.jpeg"
-            alt="A Bíblia Explica a Própria Bíblia"
-            className="w-full h-full object-cover"
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/freepik__prompt-a-highangle-photograph-looking-down-at-the-__61754.jpeg"
+              alt="A Bíblia Explica a Própria Bíblia"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
         ),
         title: "A Bíblia Explica a Própria Bíblia",
         description:
@@ -350,11 +359,15 @@ export const siteConfig = {
       {
         id: 3,
         content: (
-          <img
-            src="/freepik__prompt-a-photograph-of-the-three-mccheyne-bibles-s__61755.jpeg"
-            alt="O Fim do O Que Ler Hoje"
-            className="w-full h-full object-cover"
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/freepik__prompt-a-photograph-of-the-three-mccheyne-bibles-s__61755.jpeg"
+              alt="O Fim do O Que Ler Hoje"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
         ),
         title: "O Fim do \"O Que Ler Hoje?\"",
         description:
@@ -363,11 +376,15 @@ export const siteConfig = {
       {
         id: 4,
         content: (
-          <img
-            src="/freepik__prompt-a-photorealistic-shot-of-female-hands-gentl__61752.jpeg"
-            alt="Apenas 15 Minutos Diários"
-            className="w-full h-full object-cover"
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src="/freepik__prompt-a-photorealistic-shot-of-female-hands-gentl__61752.jpeg"
+              alt="Apenas 15 Minutos Diários"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 50vw"
+            />
+          </div>
         ),
         title: "Apenas 15 Minutos Diários",
         description:

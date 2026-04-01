@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { Play, XIcon } from "lucide-react";
+import Image from "next/image";
 import { AnimatePresence, motion } from "motion/react";
 import { useState } from "react";
 
@@ -85,9 +85,9 @@ export function HeroVideoDialog({
         onClick={() => setIsVideoOpen(true)}
       >
         {thumbnailSrc ? (
-          <img
+          <Image
             src={thumbnailSrc}
-            alt={thumbnailAlt}
+            alt={thumbnailAlt ?? "Video thumbnail"}
             width={1920}
             height={1080}
             className="w-full transition-all duration-200 ease-out group-hover:brightness-[0.8] isolate"

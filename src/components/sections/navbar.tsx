@@ -6,6 +6,7 @@ import { siteConfig } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useScroll } from "motion/react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -111,7 +112,7 @@ export function Navbar() {
         >
           <div className="flex h-[56px] items-center justify-between p-4">
             <Link href="/" className="flex items-center gap-3">
-              <img src="/LOGO MARCAS EDITORA.pdf (1).webp" alt="Marcas Editora" className="h-16 md:h-20 w-auto" />
+              <Image src="/LOGO MARCAS EDITORA.pdf (1).webp" alt="Marcas Editora" width={80} height={80} className="h-16 md:h-20 w-auto" />
             </Link>
 
             <NavMenu />

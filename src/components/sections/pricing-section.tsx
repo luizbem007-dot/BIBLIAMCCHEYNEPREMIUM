@@ -1,6 +1,7 @@
 import { AnimatedGradientText } from "@/components/ui/animated-gradient-text";
 import { ShimmerButton } from "@/components/ui/shimmer-button";
 import { ShieldCheck } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export function PricingSection() {
@@ -17,11 +18,13 @@ export function PricingSection() {
         </h2>
 
         {/* Imagem destaque */}
-        <div className="w-full rounded-t-3xl overflow-hidden">
-          <img
+        <div className="w-full rounded-t-3xl overflow-hidden relative aspect-[3/4]">
+          <Image
             src="/VENDAA.webp"
             alt="Bíblia Devocional McCheyne"
-            className="w-full h-auto object-cover"
+            fill
+            className="object-cover"
+            priority
           />
         </div>
 

@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { Icons } from "@/components/icons";
@@ -8,6 +7,7 @@ import {
   ReasoningResponse,
 } from "@/components/ui/reasoning";
 import { AnimatePresence, motion, useInView } from "motion/react";
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 export function ReasoningBasic() {
@@ -75,9 +75,11 @@ export function FirstBentoAnimation() {
             </p>
           </motion.div>
           <div className="flex items-center bg-background rounded-full w-fit border border-border flex-shrink-0">
-            <img
+            <Image
               src="https://randomuser.me/api/portraits/women/79.jpg"
               alt="User Avatar"
+              width={32}
+              height={32}
               className="size-8 rounded-full flex-shrink-0"
             />
           </div>

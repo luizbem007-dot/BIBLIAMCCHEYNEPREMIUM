@@ -9,6 +9,7 @@ import React, {
 } from "react";
 import * as Accordion from "@radix-ui/react-accordion";
 import { motion, useInView } from "motion/react";
+import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 
@@ -214,31 +215,26 @@ export const Feature = ({
           />
 
           {/* Main Image */}
-          <motion.img
+          <motion.div
             key={currentIndex}
-            src={currentItem.image}
-            alt={currentItem.title}
-            className={cn(
-              "aspect-auto h-full w-full rounded-xl border border-neutral-300/50 object-cover p-1",
-              "transition-all duration-300",
-              imageLoaded ? "opacity-100 blur-0" : "opacity-0 blur-xl"
-            )}
-            initial={{
-              opacity: 0,
-              filter: "blur(5px)",
-            }}
+            className="relative h-full w-full"
+            initial={{ opacity: 0, filter: "blur(5px)" }}
             animate={{
               opacity: imageLoaded ? 1 : 0,
               filter: imageLoaded ? "blur(0px)" : "blur(5px)",
             }}
-            transition={{
-              duration: 0.3,
-              ease: [0.4, 0, 0.2, 1],
-            }}
-            onLoad={() => setImageLoaded(true)}
-            loading="eager"
-            sizes="(max-width: 768px) 100vw, 50vw"
-          />
+            transition={{ duration: 0.3, ease: [0.4, 0, 0.2, 1] }}
+          >
+            <Image
+              src={currentItem.image}
+              alt={currentItem.title}
+              fill
+              className="rounded-xl border border-neutral-300/50 object-cover p-1"
+              onLoad={() => setImageLoaded(true)}
+              sizes="(max-width: 768px) 100vw, 50vw"
+              priority={currentIndex === 0}
+            />
+          </motion.div>
         </div>
       );
     }

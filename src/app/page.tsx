@@ -1,11 +1,13 @@
-import { BentoSection } from "@/components/sections/bento-section";
-import { FAQSection } from "@/components/sections/faq-section";
-import { FeatureSection } from "@/components/sections/feature-section";
-import { FooterSection } from "@/components/sections/footer-section";
+import dynamic from "next/dynamic";
 import { HeroSection } from "@/components/sections/hero-section";
-import { PricingSection } from "@/components/sections/pricing-section";
-import { QuoteSection } from "@/components/sections/quote-section";
-import { TestimonialSection } from "@/components/sections/testimonial-section";
+
+const BentoSection       = dynamic(() => import("@/components/sections/bento-section").then(m => ({ default: m.BentoSection })));
+const QuoteSection       = dynamic(() => import("@/components/sections/quote-section").then(m => ({ default: m.QuoteSection })));
+const FeatureSection     = dynamic(() => import("@/components/sections/feature-section").then(m => ({ default: m.FeatureSection })));
+const PricingSection     = dynamic(() => import("@/components/sections/pricing-section").then(m => ({ default: m.PricingSection })));
+const TestimonialSection = dynamic(() => import("@/components/sections/testimonial-section").then(m => ({ default: m.TestimonialSection })));
+const FAQSection         = dynamic(() => import("@/components/sections/faq-section").then(m => ({ default: m.FAQSection })));
+const FooterSection      = dynamic(() => import("@/components/sections/footer-section").then(m => ({ default: m.FooterSection })));
 
 export default function Home() {
   return (

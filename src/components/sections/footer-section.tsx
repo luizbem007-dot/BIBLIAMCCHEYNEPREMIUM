@@ -3,6 +3,7 @@
 import { FlickeringGrid } from "@/components/ui/flickering-grid";
 import { useMediaQuery } from "@/hooks/use-media-query";
 import { siteConfig } from "@/lib/config";
+import Image from "next/image";
 import Link from "next/link";
 export function FooterSection() {
   const tablet = useMediaQuery("(max-width: 1024px)");
@@ -12,7 +13,7 @@ export function FooterSection() {
       <div className="flex flex-col md:flex-row md:items-center md:justify-between p-10">
         <div className="flex flex-col items-start justify-start gap-y-5 max-w-xs mx-0">
           <Link href="/" className="flex items-center gap-2">
-            <img src="/LOGO MARCAS EDITORA.pdf (1).webp" alt="Marcas Editora" className="h-20 w-auto" />
+            <Image src="/LOGO MARCAS EDITORA.pdf (1).webp" alt="Marcas Editora" width={80} height={80} className="h-20 w-auto" />
           </Link>
           <p className="tracking-tight text-muted-foreground font-medium">
             {siteConfig.hero.description}
