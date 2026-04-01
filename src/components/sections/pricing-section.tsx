@@ -20,7 +20,7 @@ export function PricingSection() {
         {/* Imagem destaque */}
         <div className="w-full rounded-t-3xl overflow-hidden relative aspect-[3/4]">
           <Image
-            src="/triplopremium.webp"
+            src="/triplopremium1.webp"
             alt="Bíblia Devocional McCheyne"
             fill
             className="object-cover"
