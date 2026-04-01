@@ -292,28 +292,28 @@ export const siteConfig = {
         title: "Gênesis 1: A Criação",
         content:
           "O seu devocional começa nas fundações da fé. Você contempla a criação do mundo e entende o princípio do plano perfeito de Deus.",
-        image: "/freepik__prompt-a-topdown-flatlay-photograph-of-the-black-m__61741.jpeg",
+        image: "/black1.webp",
       },
       {
         id: 2,
         title: "Mateus 1: O Evangelho",
         content:
           "No mesmo dia, você avança para o Novo Testamento e contempla a nova criação em Cristo. A Palavra se conecta na sua mente.",
-        image: "/freepik__prompt-a-photograph-of-the-blue-mccheyne-bible-res__61750.jpeg",
+        image: "/azul1.webp",
       },
       {
         id: 3,
         title: "Esdras 1: A Restauração",
         content:
           "A terceira porção traz o retorno do povo cativo. Uma leitura viva, direto da Palavra, que renova a esperança em dias difíceis.",
-        image: "/freepik__prompt-a-photorealistic-interior-shot-of-the-red-m__61747.jpeg",
+        image: "/oran1.webp",
       },
       {
         id: 4,
         title: "Atos 1: A Igreja",
         content:
           "Você fecha a leitura vendo o poder do Espírito Santo no nascimento da Igreja, trazendo o avivamento para dentro do seu quarto.",
-        image: "/biblia-trio-premium.jpg",
+        image: "/turk1.webp",
       },
     ],
   },
@@ -327,7 +327,7 @@ export const siteConfig = {
         content: (
           <div className="relative w-full h-full">
             <Image
-              src="/freepik__prompt-a-candid-photorealistic-shot-of-a-mans-hand__61742.jpeg"
+              src="/black2.webp"
               alt="A Bíblia de Capa a Capa"
               fill
               className="object-cover"
@@ -344,7 +344,7 @@ export const siteConfig = {
         content: (
           <div className="relative w-full h-full">
             <Image
-              src="/freepik__prompt-a-highangle-photograph-looking-down-at-the-__61754.jpeg"
+              src="/azul2.webp"
               alt="A Bíblia Explica a Própria Bíblia"
               fill
               className="object-cover"
@@ -361,7 +361,7 @@ export const siteConfig = {
         content: (
           <div className="relative w-full h-full">
             <Image
-              src="/freepik__prompt-a-photograph-of-the-three-mccheyne-bibles-s__61755.jpeg"
+              src="/oran2.webp"
               alt="O Fim do O Que Ler Hoje"
               fill
               className="object-cover"
@@ -378,7 +378,7 @@ export const siteConfig = {
         content: (
           <div className="relative w-full h-full">
             <Image
-              src="/freepik__prompt-a-photorealistic-shot-of-female-hands-gentl__61752.jpeg"
+              src="/turk2.webp"
               alt="Apenas 15 Minutos Diários"
               fill
               className="object-cover"

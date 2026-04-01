@@ -20,7 +20,7 @@ export function PricingSection() {
         {/* Imagem destaque */}
         <div className="w-full rounded-t-3xl overflow-hidden relative aspect-[3/4]">
           <Image
-            src="/VENDAA.webp"
+            src="/triplopremium.webp"
             alt="Bíblia Devocional McCheyne"
             fill
             className="object-cover"
@@ -44,7 +44,7 @@ export function PricingSection() {
             </span>
             <div className="relative">
               <span className="text-6xl sm:text-7xl font-black tracking-tighter text-primary">
-                R$80
+                R$289,90
               </span>
             </div>
             <span className="text-sm text-muted-foreground font-medium tracking-wide uppercase">
@@ -55,7 +55,7 @@ export function PricingSection() {
 
         {/* CTA */}
         <div className="pt-2 pb-6">
-          <Link href="https://marcaseditora.com.br/produtos/?brand=Cpp" target="_blank" rel="noopener noreferrer" className="block w-full">
+          <Link href="https://marcaseditora.com.br/produtos/?brand=Marcas%20Editora" target="_blank" rel="noopener noreferrer" className="block w-full">
             <ShimmerButton
               background="#680d3a"
               shimmerColor="#b8860b"
@@ -63,7 +63,7 @@ export function PricingSection() {
               shimmerDuration="2s"
               className="w-full h-14 sm:h-16 text-sm sm:text-base font-bold tracking-wide uppercase"
             >
-              Aproveite Agora — R$80
+              Aproveite Agora — R$289,90
             </ShimmerButton>
           </Link>
         </div>
