@@ -1,10 +1,11 @@
 export const siteConfig = {
-  name: "SkyAgent",
-  url: "https://agent-magicui.vercel.app",
-  description: "Your template for building AI-powered agents with Magic UI.",
+  name: "Bíblia Devocional McCheyne",
+  url: "https://marcaseditora.com.br",
+  description:
+    "A Bíblia com o plano de leitura de Robert Murray McCheyne — leia a Bíblia inteira em 1 ano com profundidade e consistência.",
   links: {
-    twitter: "https://x.com/dillionverma",
-    github: "https://github.com/dillionverma",
+    twitter: "https://x.com/marcaseditora",
+    github: "",
   },
 };
 
