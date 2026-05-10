@@ -846,36 +846,35 @@ export const siteConfig = {
     },
     {
       id: "5",
-      name: "Eveny Braga",
-      img: "https://randomuser.me/api/portraits/women/50.jpg",
+      name: "Romulo Moraes",
+      img: "/testimonials/romulomoraes.jpg",
       description: (
         <p>
-          Tô amando meus devocionais com a Bíblia McCheyne.{" "}
           <Highlight>
-            A minha casa toda ama esse devocional — ele transformou nossa
-            rotina espiritual.
-          </Highlight>
+            Quantos ensinamentos emanam das sagradas escrituras. Meu Deus!
+          </Highlight>{" "}
+          Cada dia uma porção diferente que alimenta e fortalece a alma.
         </p>
       ),
     },
     {
       id: "6",
-      name: "Miriam Almeida",
-      img: "https://randomuser.me/api/portraits/women/61.jpg",
+      name: "Andreia Furtado",
+      img: "/testimonials/andreia.jpg",
       description: (
         <p>
-          Devocional maravilhoso.{" "}
+          Acho que vou querer uma de cada cor!!!{" "}
           <Highlight>
-            A palavra que vem de encontro todos os dias para nossas vidas.
-          </Highlight>{" "}
-          Nunca me senti tão perto de Deus na leitura diária. 🙌
+            Mas além da beleza, o que mais importa é o quanto esse devocional
+            mudou minha vida espiritual.
+          </Highlight>
         </p>
       ),
     },
     {
       id: "7",
-      name: "Renata Carvalho",
-      img: "https://randomuser.me/api/portraits/women/17.jpg",
+      name: "Moni Malerbi",
+      img: "/testimonials/monimalerbi.jpg",
       description: (
         <p>
           <Highlight>Meu maior tesouro!</Highlight> Não há presente mais
@@ -942,8 +941,8 @@ export const siteConfig = {
     },
     {
       id: "12",
-      name: "Isabela",
-      img: "https://randomuser.me/api/portraits/women/55.jpg",
+      name: "Genilda de Melo",
+      img: "/testimonials/genilda.jpg",
       description: (
         <p>
           <Highlight>Bíblia perfeita para leitura diária!</Highlight> Não
