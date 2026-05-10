@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 export interface TestimonialCardProps
   extends React.HTMLAttributes<HTMLDivElement> {
   name: string;
-  role: string;
+  role?: string;
   img?: string;
   description: React.ReactNode;
   className?: string;
@@ -15,7 +15,6 @@ export const TestimonialCard = ({
   description,
   name,
   img,
-  role,
   className,
   ...props
 }: TestimonialCardProps) => (
@@ -38,7 +37,6 @@ export const TestimonialCard = ({
 
       <div>
         <p className="font-medium text-primary/90">{name}</p>
-        <p className="text-xs font-normal text-primary/50">{role}</p>
       </div>
     </div>
   </div>
@@ -47,7 +45,7 @@ export const TestimonialCard = ({
 interface Testimonial {
   id: string;
   name: string;
-  role: string;
+  role?: string;
   img: string;
   description: React.ReactNode;
 }

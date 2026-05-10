@@ -791,8 +791,7 @@ export const siteConfig = {
     {
       id: "1",
       name: "Carol Rocha",
-      role: "Mãe de família",
-      img: "https://randomuser.me/api/portraits/women/44.jpg",
+      img: "/testimonials/carol.jpg",
       description: (
         <p>
           O momento mais especial do dia é sentar à mesa com minha família para
@@ -807,8 +806,7 @@ export const siteConfig = {
     {
       id: "2",
       name: "Erieli Cristo",
-      role: "Mãe cristã",
-      img: "https://randomuser.me/api/portraits/women/68.jpg",
+      img: "/testimonials/erieli.jpg",
       description: (
         <p>
           Faço a leitura da bíblia devocional com o meu filho desde quando ele
@@ -822,8 +820,7 @@ export const siteConfig = {
     {
       id: "3",
       name: "Maria Marta Carvalho",
-      role: "Seguidora de Cristo",
-      img: "https://randomuser.me/api/portraits/women/90.jpg",
+      img: "/testimonials/mariamarta.jpg",
       description: (
         <p>
           Eu estava perdida quando te encontrei...{" "}
@@ -835,8 +832,7 @@ export const siteConfig = {
     {
       id: "4",
       name: "Thaylanna Diniz",
-      role: "Cristã comprometida",
-      img: "https://randomuser.me/api/portraits/women/26.jpg",
+      img: "/testimonials/thaylanna.jpg",
       description: (
         <p>
           Que essa seja a nossa amiga diária nesses 365 dias.{" "}
@@ -851,7 +847,6 @@ export const siteConfig = {
     {
       id: "5",
       name: "Eveny Braga",
-      role: "Devota da Palavra",
       img: "https://randomuser.me/api/portraits/women/50.jpg",
       description: (
         <p>
@@ -866,7 +861,6 @@ export const siteConfig = {
     {
       id: "6",
       name: "Miriam Almeida",
-      role: "Leitora assídua",
       img: "https://randomuser.me/api/portraits/women/61.jpg",
       description: (
         <p>
@@ -881,7 +875,6 @@ export const siteConfig = {
     {
       id: "7",
       name: "Renata Carvalho",
-      role: "Irmã na fé",
       img: "https://randomuser.me/api/portraits/women/17.jpg",
       description: (
         <p>
@@ -894,8 +887,7 @@ export const siteConfig = {
     {
       id: "8",
       name: "Paloma Ninio",
-      role: "Amante da Bíblia",
-      img: "https://randomuser.me/api/portraits/women/72.jpg",
+      img: "/testimonials/paloma.jpg",
       description: (
         <p>
           Bíblia linda e a versão é maravilhosa.{" "}
@@ -909,8 +901,7 @@ export const siteConfig = {
     {
       id: "9",
       name: "Pr. Jairo Carvalho",
-      role: "Pastor e escritor",
-      img: "https://randomuser.me/api/portraits/men/32.jpg",
+      img: "/testimonials/jairo.jpg",
       description: (
         <p>
           <Highlight>
@@ -924,8 +915,7 @@ export const siteConfig = {
     {
       id: "10",
       name: "Jaciana Arruda",
-      role: "Seguidora da Palavra",
-      img: "https://randomuser.me/api/portraits/women/35.jpg",
+      img: "/testimonials/jaciana.jpg",
       description: (
         <p>
           Tem testemunhos incríveis sobre essa Bíblia Devocional McCheyne.{" "}
@@ -939,8 +929,7 @@ export const siteConfig = {
     {
       id: "11",
       name: "Rodrigo",
-      role: "Estudante da Palavra",
-      img: "https://randomuser.me/api/portraits/men/75.jpg",
+      img: "/testimonials/rodrigo.jpg",
       description: (
         <p>
           <Highlight>
@@ -954,7 +943,6 @@ export const siteConfig = {
     {
       id: "12",
       name: "Isabela",
-      role: "Leitora diária",
       img: "https://randomuser.me/api/portraits/women/55.jpg",
       description: (
         <p>
@@ -967,8 +955,7 @@ export const siteConfig = {
     {
       id: "13",
       name: "Bruna Vasconcelos",
-      role: "Devota da Palavra",
-      img: "https://randomuser.me/api/portraits/women/62.jpg",
+      img: "/testimonials/bruna.jpg",
       description: (
         <p>
           Eu amo a minha Bíblia McCheyne!{" "}
